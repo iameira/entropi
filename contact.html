@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/handheld.css"/>
+<link rel="stylesheet" media="screen and (min-width: 600px)" href="css/main.css"/>
+	<title>EntroPI AI</title>
+	<link rel="shortcut icon" type="image/png" href="img/test/favicon.ico"/>
+
+	<script src="//code.jquery.com/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="SideNavi.js"></script>
+
+	<script>
+
+		function openbox(id) {
+			var all = document.querySelectorAll(".block-of-text");
+			for (var i = 0; i < all.length; i++) {
+				if (all[i].id == id) {
+					all[i].style.display = (all[i].style.display == 'none')? 'block' : 'none';
+				} else {
+					all[i].style.display = 'none';
+				}
+			}
+		}
+
+	</script>
+
+
+	<script type="text/javascript">
+		
+		function eatFood() {
+document.getElementById('contact.html').submit();
+}
+
+function eatFood() {
+alert('Form has been submitted');
+window.open(contact.html);
+}
+
+	</script>
+
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+	<div id="fixed" class="logo_bcg">
+		<div class="container">
+			<div class="heading clearfix">
+				<a href="index.html#a">
+					<img src="img/hs.png" alt="EntroPI" class="logo">
+				</a>
+				<nav class="top_menu">
+					<ul class="menu">
+						<li>
+							<a href="index.html#expertise_1">Expertise areas</a>
+						</li>
+						<li>
+							<a href="index.html#cases_point">Cases</a>
+						</li>
+						<li>
+							<a href="#contacts">Contacts</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+	<div class="cont">
+		<div class="container_cont">
+			<img class="icons_prew_p" src="img/cookies.svg" alt="">
+
+			<div class="titles_privacy">Contact <span style="color:#27aee3">us </span></div>
+			<div class="policy_priv_1">
+
+				<form action="contact.html">
+
+					<label for="fname">Enter your name</label>
+					<input type="text" id="fname" name="firstname">
+
+					<label for="lname">Enter your email</label>
+					<input type="text" id="lname" name="lastname">
+
+					<label for="subject">Subject</label>
+					<textarea id="subject" name="subject" style="height:200px"></textarea>
+
+					<input type="submit" value="Submit" onClick="eatFood();">
+
+				</form>
+			</div>
+
+		</div>
+
+
+	</div>
+	<footer>
+			<div class="ftr_background">
+				<div class="container">
+					<div id="contacts" class="ftr">
+
+						<div class="animated_ftr_1">
+							<span class="where" style="color:#27aee3; font-weight: normal;">Explore<br></span>
+							<ul class="menu_" >
+								<li> <a href="#a">Home <br> </a> </li>
+								<li> <a href="#expertise_1">Expertise areas <br></a> </li>
+								<li> <a href="#cases_point">Portfolio <br> </a> </li>
+								<li> <a href="contact.html">Contact us </a> </li>
+
+							</ul>
+						</div>
+
+						<div class="animated_ftr_2">
+							<span class="where" style="color:#27aee3; font-weight: normal;">Visit <br></span>
+							<img class="logo_1" src="img/unit-city-logo.png" alt="">
+							<div class="under_img_1">
+								Ukraine, Kyiv <br>
+								Dorohozhytska str, 3 <br>
+							</div>
+						</div>
+
+						<div class="animated_ftr_3">
+							<span class="where" style="color:#27aee3; font-weight: normal;">Contact <br></span>
+							+380 (50) 425-55-30 <br>
+							ps@entropi.ai
+						</div>
+
+						<div class="animated_ftr_4">
+							<span class="where" style="color:#27aee3; font-weight: normal;">Legal<br></span>
+							<ul class="menu_" >
+								<li> <a href="terms.html">Terms <br></a> </li>
+								<li> <a href="privacy.html">Privacy <br> </a> </li>
+								<li> <a href="cookies.html">Cookies </a> </li>
+
+							</ul>
+						</div>
+					</div>
+					<ul class="menu_mob" >
+								<li> <a href="terms.html">Terms <br></a> </li>
+								<li> <a href="privacy.html">Privacy <br> </a> </li>
+								<li> <a href="cookies.html">Cookies </a> </li>
+								<div class="copyright_mob">© 2019</div>
+							</ul>
+					<div class="copyright">© 2019. All rights reserved</div>
+				</div>
+			</div>
+		</footer>
+
+</body>
+</html>
