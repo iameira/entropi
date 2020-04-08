@@ -384,7 +384,6 @@ html {
   color: #293238;
 
   padding-top: 20%;
-  padding-bottom: 5%;
 }
 
 .why_n {
@@ -491,6 +490,7 @@ html {
   width: 100%;
   height: auto;
   padding: 2%;
+  margin-top: 0;
   text-decoration: none;
 }
 
