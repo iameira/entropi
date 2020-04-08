@@ -38,9 +38,6 @@ html {
   clear: both;
 }
 
-.menu_ {
-	display: none;
-}
 
 .menu_mob {
   padding: 0;
@@ -48,6 +45,26 @@ html {
   display: flex;
   list-style: none;
 }
+
+.menu_ {
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  text-align: center;
+  list-style: none;
+}
+
+.menu_ li {
+  text-decoration: none;
+  margin-right: 7%;
+  color: #ADADAD;
+}
+
+.menu_ li a {
+  text-decoration: none;
+  color: #ADADAD;
+}
+
 
 .policies {
   background-color: white;
@@ -154,7 +171,7 @@ html {
 .menu li {
   float: left;
   display: block;
-  margin-right: 15px;
+  margin-right: 12px;
 }
 
 .menu li a {
@@ -163,7 +180,7 @@ html {
   font-style: bold;
   text-decoration: none;
   text-transform: none;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .project_section {
@@ -346,7 +363,7 @@ html {
   margin-bottom: 0;
   padding-top: 15%;
   color: #293238;
-  margin-top: 0px;
+  padding-top: 20%;
 }
 
 .container_what {
@@ -451,6 +468,7 @@ html {
 
 .change {
 	color: #fff;
+	padding-right: 3%;
 }
 
 .projects {
@@ -501,7 +519,7 @@ html {
  border-bottom: 1px solid #27aee3;
 }
 
-.animated_ftr_2 {
+.animated_ftr {
   padding-top: 20px;
   text-decoration: none;
   width: 100%;
@@ -511,6 +529,10 @@ html {
   font-family: 'Noto Sans';
   font-size: 18px;
   color: #ADADAD;
+}
+
+.animated_ftr_2 {
+  display: none;
 }
 
 .animated_ftr_3 {
@@ -527,15 +549,14 @@ html {
 }
 
 .animated_ftr_4 {
-	display: none;
-  padding-top: 20px;
   text-decoration: none;
   width: 100%;
   height: auto;
-  text-align: left;
+  text-align: center;
   line-height: 30px;
   font-family: 'Noto Sans';
   font-size: 18px;
+  padding-bottom: 5%;
   color: #ADADAD;
 }
 
@@ -543,17 +564,13 @@ html {
   display: none;
 }
 
-.copyright_mob {
+.copyright {
   float: right;
   text-align: right;
   font-size: 16px;
   font-family: 'Noto Sans';
   color: #ADADAD;
   width: 100%;
-}
-
-.copyright {
-  display: none;
 }
 
 
@@ -735,7 +752,7 @@ html {
 .project_a {
   background: url(../img/cs2.png);
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 90% auto;
   background-position: left;
   font-size: 20px;
   margin-top: 10px;
@@ -755,7 +772,7 @@ html {
 .project_c {
   background: url(../img/ct.png);
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 90% auto;
   background-position: right;
   font-size: 20px;
   margin-top: 10px;

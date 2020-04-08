@@ -500,16 +500,7 @@ body {
 }
 
 .animated_ftr {
-  padding-top: 20px;
-  padding-left: 108px;
-  text-decoration: none;
-  width: 400px;
-  height: 180px;
-  text-align: left;
-  line-height: 30px;
-  font-family: 'Noto Sans';
-  font-size: 18px;
-  color: #ADADAD;
+  display: none;
 }
 
 .animated_ftr_1 {
